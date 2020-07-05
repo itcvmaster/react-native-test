@@ -23,62 +23,35 @@ A sample app with 3 screens with integration of Unsplash REST API built with Rea
 # install dependencies
 yarn install
 
-# run bundler
-yarn run serve
-
 # run on Android device/emulator
 yarn run android
 
 # run on iOS device/simulator
 yarn run ios
 
-# run tests
-yarn run test
+# eject expo
+yarn eject
 
-# lint code
+## Testing
+
+Run example app tests with:
+
+```
+yarn test
+```
+
+Note: Jest testing does not yet work on node versions after 0.10.x.
+
+## Static Analysis
+
+Lint the example apps with:
+
+```
 yarn run lint
-
-# format code
-yarn run format
 ```
 
-## Debugging
+If you have [flow](http://flowtype.org) (version 0.1.6+) installed, you can do type analysis by running:
 
-From DevTools
-
-```javascript
-// use logger
-Logger.debug('Hello World!');
-
-// check if there is an authenticated session
-AuthService.isAuthenticated();
-
-// get state from Redux store
-$store.getState().MyModule.myField;
-
-// dispatch action from Redux store
-$store.dispatch($state.MyModule.$myAction(/* args */));
 ```
-
-## Using the Template
-
-Assuming target application with following properties:
-
-- code name is `App`
-- display name is ` App`
-- pacakge id is `com.myapp.client`
-
-1.  Initialize your application `react-native init`
-
-    ```sh
-    react-native init App
-    ```
-
-1.  Run post-init routine
-
-    ```sh
-    cd ./App
-    ./postinit.sh 'App' 'App' 'com.app.client'
-    ```
-
-1.  Make sure to replace placeholders (look for `@{`) with appropriate values
+flow
+```
