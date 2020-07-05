@@ -2,12 +2,6 @@
 
 A sample app with 3 screens with integration of Unsplash REST API built with React, Redux, and React Native.
 
-## References
-
-- [API Specifications/Documentation](https://starterspecapi.docs.apiary.io/)
-- [Documentation](./docs)
-- [Guidelines](https://github.com/emiketic/helloworld-dev/tree/master/docs/guidelines)
-
 ## Technology
 
 - [React](https://reactjs.org/) + [Redux](https://redux.js.org/) + [React Native](https://facebook.github.io/react-native/)
@@ -70,21 +64,21 @@ $store.dispatch($state.MyModule.$myAction(/* args */));
 
 Assuming target application with following properties:
 
-- code name is `MyApp`
-- display name is `My App`
+- code name is `App`
+- display name is ` App`
 - pacakge id is `com.myapp.client`
 
 1.  Initialize your application `react-native init`
 
     ```sh
-    react-native init MyApp --version 0.58.4 --skip-jest --template 'https://github.com/naderio/helloworld-react-native'
+    react-native init App
     ```
 
 1.  Run post-init routine
 
     ```sh
-    cd ./MyApp
-    ./postinit.sh 'MyApp' 'My App' 'com.myapp.client'
+    cd ./App
+    ./postinit.sh 'App' 'App' 'com.app.client'
     ```
 
 1.  Make sure to replace placeholders (look for `@{`) with appropriate values
