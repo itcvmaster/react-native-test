@@ -2,6 +2,10 @@
 
 A sample app with 3 screens with integration of Unsplash REST API built with React, Redux, and React Native.
 
+## Preview
+You can find the video to show how it works in the following link.
+https://drive.google.com/file/d/1TcYJg1s9UErsLc_hzRRGhqchDud3hLM1/view?usp=sharing
+
 ## Technology
 
 - [React](https://reactjs.org/) + [Redux](https://redux.js.org/) + [React Native](https://facebook.github.io/react-native/)
